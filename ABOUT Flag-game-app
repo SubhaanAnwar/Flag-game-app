@@ -1,0 +1,27 @@
+I used Kotlin to create an entertaining geography-based quiz game for my first Android application project. Through a variety of interactive games, this game puts players' 
+knowledge of several countries and their flags to the test. Below is a summary of the changes I've made:
+
+
+MainActivity.kt: This is the entry point of the app, featuring a clean home page with buttons that let users navigate to different game sections. To provide quick access 
+and a user-friendly experience, each button links to a specific activity, such as the advanced level quiz, guess hints game, guess the nation game, and guess the flag game.
+
+
+AdvancedLevelActivity.kt: I've made the quiz game's advanced level in this file. It controls the user interface and logic to pose more complex questions to the participants, 
+making it an engaging experience for individuals who wish to push their level of knowledge.
+
+
+GuessHintsActivity.kt: The goal of this exercise is to assist users in guessing the proper nation by giving them tips. I've integrated logic to show different tips and assess
+user input, so the game is entertaining and educational at the same time.
+
+
+GuessTheCountry.kt: The "Guess the Country" game revolves upon this file. It has user interface elements that show nation flags and input boxes where users may enter their 
+predictions. To make the gaming interesting and dynamic, I've included the ability to verify these guesses and adjust the score depending on whether the responses are right or 
+wrong.
+
+
+GuessTheFlag.kt: I concentrated on the quiz's "Guess the Flag" section in this section. I've built up code to choose flags at random, show them to the user, and assess how 
+accurate the user's estimate was. This file also manages the change from one guess to the next flag, ensuring a seamless and uninterrupted game flow.
+
+
+I created interactive and responsive user interface (UI) elements for the game using Kotlin and Jetpack Compose for Android, which enhance its visual appeal and ease of use. 
+My ability to develop an engaging, instructive, and interactive application that assesses and improves users' geography knowledge is demonstrated by this project.
